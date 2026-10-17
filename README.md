@@ -32,6 +32,11 @@ they're actually done - I'd rather ship nothing than ship "almost".
   <img height="165" src="https://streak-stats.demolab.com?user=LeonCromwell22&theme=tokyonight&hide_border=true" />
 </p>
 
+### contribution snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonCromwell22/LeonCromwell22/output/github-contribution-grid-snake.svg" alt="contribution snake" />
+</p>
 ### toolbelt
 
 ![Luau](https://img.shields.io/badge/Luau-00A2FF?style=flat-square)
