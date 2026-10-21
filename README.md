@@ -1,58 +1,56 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00A2FF,100:7B2FF7&height=180&section=header&text=kel&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+<img src="assets/header.svg" alt="kel - Roblox Developer, Systems Design, AI-Assisted Prototyping" width="100%" />
 
-<a href="https://github.com/LeonCromwell22">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00A2FF&center=true&vCenter=true&width=620&lines=Roblox+Developer;Blender+Tool-Maker;Learning+in+Public;Building+things+that+should+not+work+yet" alt="Typing" />
-</a>
-
-**Roblox developer | tool-maker | learning in public**
-
-I build games and systems on Roblox, spend late nights in Blender, and write small
-tools whenever Windows annoys me enough. Serious projects stay private until
-they're actually done - I'd rather ship nothing than ship "almost".
+<img src="assets/typing.svg" alt="Designing gameplay systems. Building clean, readable game UI. Shipping 3D assets from Blender to Roblox. Verifying everything with evidence." width="100%" />
 
 </div>
 
----
-
-### currently
-
-- Building on **Roblox** - Luau, gameplay systems
-- Learning **Blender** + Python tooling - procedural scenes, Geometry Nodes
-- Cooking something I'll show when it's ready
-
-### stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LeonCromwell22&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeonCromwell22&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=LeonCromwell22&theme=tokyonight&hide_border=true" />
-</p>
-
-### contribution snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LeonCromwell22/LeonCromwell22/output/github-contribution-grid-snake.svg" alt="contribution snake" />
-</p>
-### toolbelt
-
-![Luau](https://img.shields.io/badge/Luau-00A2FF?style=flat-square)
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-
-<details>
-  <summary><b>behind the commits</b></summary>
-  <br>
-  self-taught, learning in public<br>
-  blender gremlin, luau enjoyer<br>
-  private repos are where the real projects live
-</details>
-
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=LeonCromwell22&style=flat-square&color=00A2FF&label=profile+views" />
+## About
+
+I'm a **Roblox developer** focused on gameplay systems, interface design, and the 3D pipeline that feeds them. I treat AI agents as part of the toolchain: I direct them through small, verified steps so I can prototype quickly without giving up polish or reliability.
+
+I care about the details that make an experience feel premium: consistent UI, readable type, smooth motion, and systems that behave the same way every time.
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+## Focus
+
+<p align="center"><img src="assets/focus.svg" width="100%" alt="Focus areas: gameplay systems, game UI and experience, 3D asset pipelines, AI-assisted development" /></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+## Toolbox
+
+<p align="center"><img src="assets/skills.svg" width="100%" alt="Luau, Python, Roblox Studio, Blender, systems design, game UI, rapid prototyping, Claude Code, Cline, VS Code, Git, Obsidian" /></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+## How I work
+
+| | |
+|---|---|
+| **Evidence over claims** | Work isn't "done" until there are screenshots, logs, or measured numbers to show it. |
+| **Root causes, not guesses** | I instrument and log to find why something broke, then fix that. |
+| **Small, verified steps** | One phase at a time, each with clear acceptance checks, then report. |
+| **Honest status** | I say what isn't finished as clearly as what is. |
+| **Original by default** | Reference work informs structure and craft, never copied assets or ideas. |
+
+## Currently
+
+- Building advanced gameplay systems and polished UI for Roblox
+- Refining Blender-to-Roblox asset pipelines with Python automation
+- Developing a repeatable, AI-assisted workflow for fast, dependable prototyping
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeonCromwell22/LeonCromwell22/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution activity" src="https://raw.githubusercontent.com/LeonCromwell22/LeonCromwell22/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+</div>

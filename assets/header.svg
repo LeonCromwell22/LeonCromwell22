@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="kel - Roblox Developer, Systems Design, AI-Assisted Prototyping">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111a33">
+        <animate attributeName="offset" values="0.45;0.7;0.45" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#1a1236"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.6 0;0.6 0;-0.6 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a5b4fc" stop-opacity="1"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glowA" cx="0.2" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.85" cy="0.8" r="0.6">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="1000" height="280" rx="18"/></clipPath>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <style>
+    .p { animation: rise linear infinite; }
+    @keyframes rise {
+      0%   { transform: translateY(0);      opacity: 0; }
+      15%  { opacity: .75; }
+      85%  { opacity: .5; }
+      100% { transform: translateY(-330px); opacity: 0; }
+    }
+    .fade { opacity: 0; animation: fadeUp 1.2s ease-out forwards; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .breathe { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, system-ui, sans-serif; }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#grid)"/>
+    <rect width="1000" height="280" fill="url(#glowA)" class="breathe"/>
+    <rect width="1000" height="280" fill="url(#glowB)" class="breathe" style="animation-delay:-2.5s"/>
+
+    <g fill="#a5b4fc">
+      <circle class="p" cx="60"  cy="300" r="2"   style="animation-duration:9s;  animation-delay:-1s"/>
+      <circle class="p" cx="130" cy="300" r="1.5" style="animation-duration:12s; animation-delay:-6s"/>
+      <circle class="p" cx="205" cy="300" r="2.5" style="animation-duration:10s; animation-delay:-3s"/>
+      <circle class="p" cx="280" cy="300" r="1.5" style="animation-duration:13s; animation-delay:-9s"/>
+      <circle class="p" cx="350" cy="300" r="2"   style="animation-duration:8s;  animation-delay:-5s"/>
+      <circle class="p" cx="430" cy="300" r="3"   style="animation-duration:11s; animation-delay:-2s"/>
+      <circle class="p" cx="510" cy="300" r="1.5" style="animation-duration:9.5s;animation-delay:-7s"/>
+      <circle class="p" cx="585" cy="300" r="2"   style="animation-duration:12s; animation-delay:-4s"/>
+      <circle class="p" cx="660" cy="300" r="2.5" style="animation-duration:10s; animation-delay:-8s"/>
+      <circle class="p" cx="735" cy="300" r="1.5" style="animation-duration:14s; animation-delay:-1s"/>
+      <circle class="p" cx="810" cy="300" r="2"   style="animation-duration:9s;  animation-delay:-5s"/>
+      <circle class="p" cx="880" cy="300" r="3"   style="animation-duration:11s; animation-delay:-10s"/>
+      <circle class="p" cx="945" cy="300" r="1.5" style="animation-duration:13s; animation-delay:-3s"/>
+      <circle class="p" cx="240" cy="300" r="1.5" style="animation-duration:15s; animation-delay:-11s"/>
+      <circle class="p" cx="620" cy="300" r="1.5" style="animation-duration:16s; animation-delay:-12s"/>
+    </g>
+
+    <g>
+      <text x="500" y="150" text-anchor="middle" font-size="104" font-weight="700" letter-spacing="-2" fill="#38bdf8" opacity="0.35" filter="url(#soft)" class="fade">kel</text>
+      <text x="500" y="150" text-anchor="middle" font-size="104" font-weight="700" letter-spacing="-2" fill="url(#name)" class="fade">kel</text>
+      <text x="500" y="196" text-anchor="middle" font-size="19" letter-spacing="4" fill="#cbd5e1" class="fade" style="animation-delay:.5s">ROBLOX DEVELOPER</text>
+      <text x="500" y="226" text-anchor="middle" font-size="14" letter-spacing="2.5" fill="#94a3b8" class="fade" style="animation-delay:.9s">SYSTEMS DESIGN  &#183;  AI-ASSISTED PROTOTYPING  &#183;  3D PIPELINES</text>
+    </g>
+
+    <rect x="-400" y="270" width="400" height="3" fill="url(#sweep)">
+      <animate attributeName="x" values="-400;1000" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="279" rx="18" fill="none" stroke="#6366f1" stroke-opacity="0.35"/>
+</svg>
