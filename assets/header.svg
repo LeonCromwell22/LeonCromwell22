@@ -1,86 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="kel - Developer, Systems Design, AI-Assisted Prototyping">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="kel - Developer, Systems Design, AI-Assisted Prototyping">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="0.55" stop-color="#111a33">
-        <animate attributeName="offset" values="0.45;0.7;0.45" dur="10s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0.55" stop-color="#111a33"><animate attributeName="offset" values="0.45;0.7;0.45" dur="10s" repeatCount="indefinite"/></stop>
       <stop offset="1" stop-color="#1a1236"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
       <stop offset="0" stop-color="#38bdf8"/>
       <stop offset="0.5" stop-color="#818cf8"/>
       <stop offset="1" stop-color="#c084fc"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-0.6 0;0.6 0;-0.6 0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#a5b4fc" stop-opacity="1"/>
+      <stop offset="0.5" stop-color="#a5b4fc"/>
       <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity="0.07"/>
     </pattern>
-    <radialGradient id="glowA" cx="0.2" cy="0.3" r="0.6">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0.85" cy="0.8" r="0.6">
-      <stop offset="0" stop-color="#c084fc" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="round"><rect width="1000" height="280" rx="18"/></clipPath>
+    <radialGradient id="glowA" cx="0.8" cy="0.5" r="0.5"><stop offset="0" stop-color="#818cf8" stop-opacity="0.28"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="0.1" cy="0.2" r="0.5"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.18"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <clipPath id="round"><rect width="1000" height="300" rx="18"/></clipPath>
     <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
   </defs>
   <style>
-    .p { animation: rise linear infinite; }
-    @keyframes rise {
-      0%   { transform: translateY(0);      opacity: 0; }
-      15%  { opacity: .75; }
-      85%  { opacity: .5; }
-      100% { transform: translateY(-330px); opacity: 0; }
-    }
-    .fade { opacity: 0; animation: fadeUp 1.2s ease-out forwards; }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-    .breathe { animation: breathe 5s ease-in-out infinite; }
-    @keyframes breathe { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
     text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, system-ui, sans-serif; }
+    .p { animation: rise linear infinite; }
+    @keyframes rise { 0%{transform:translateY(0);opacity:0} 15%{opacity:.75} 85%{opacity:.5} 100%{transform:translateY(-350px);opacity:0} }
+    .fade { opacity: 0; animation: fadeUp 1.2s ease-out forwards; }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
+    .breathe { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100%{opacity:.55} 50%{opacity:1} }
+    .spin  { transform-box: fill-box; transform-origin: center; animation: spin 24s linear infinite; }
+    .spinr { transform-box: fill-box; transform-origin: center; animation: spin 36s linear infinite reverse; }
+    .spin2 { transform-box: fill-box; transform-origin: center; animation: spin 16s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.5s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{transform:scale(1);opacity:.9} 50%{transform:scale(1.25);opacity:.5} }
   </style>
 
   <g clip-path="url(#round)">
-    <rect width="1000" height="280" fill="url(#bg)"/>
-    <rect width="1000" height="280" fill="url(#grid)"/>
-    <rect width="1000" height="280" fill="url(#glowA)" class="breathe"/>
-    <rect width="1000" height="280" fill="url(#glowB)" class="breathe" style="animation-delay:-2.5s"/>
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <rect width="1000" height="300" fill="url(#glowA)" class="breathe"/>
+    <rect width="1000" height="300" fill="url(#glowB)" class="breathe" style="animation-delay:-2.5s"/>
 
     <g fill="#a5b4fc">
-      <circle class="p" cx="60"  cy="300" r="2"   style="animation-duration:9s;  animation-delay:-1s"/>
-      <circle class="p" cx="130" cy="300" r="1.5" style="animation-duration:12s; animation-delay:-6s"/>
-      <circle class="p" cx="205" cy="300" r="2.5" style="animation-duration:10s; animation-delay:-3s"/>
-      <circle class="p" cx="280" cy="300" r="1.5" style="animation-duration:13s; animation-delay:-9s"/>
-      <circle class="p" cx="350" cy="300" r="2"   style="animation-duration:8s;  animation-delay:-5s"/>
-      <circle class="p" cx="430" cy="300" r="3"   style="animation-duration:11s; animation-delay:-2s"/>
-      <circle class="p" cx="510" cy="300" r="1.5" style="animation-duration:9.5s;animation-delay:-7s"/>
-      <circle class="p" cx="585" cy="300" r="2"   style="animation-duration:12s; animation-delay:-4s"/>
-      <circle class="p" cx="660" cy="300" r="2.5" style="animation-duration:10s; animation-delay:-8s"/>
-      <circle class="p" cx="735" cy="300" r="1.5" style="animation-duration:14s; animation-delay:-1s"/>
-      <circle class="p" cx="810" cy="300" r="2"   style="animation-duration:9s;  animation-delay:-5s"/>
-      <circle class="p" cx="880" cy="300" r="3"   style="animation-duration:11s; animation-delay:-10s"/>
-      <circle class="p" cx="945" cy="300" r="1.5" style="animation-duration:13s; animation-delay:-3s"/>
-      <circle class="p" cx="240" cy="300" r="1.5" style="animation-duration:15s; animation-delay:-11s"/>
-      <circle class="p" cx="620" cy="300" r="1.5" style="animation-duration:16s; animation-delay:-12s"/>
+      <circle class="p" cx="60"  cy="320" r="2"   style="animation-duration:9s;  animation-delay:-1s"/>
+      <circle class="p" cx="150" cy="320" r="1.5" style="animation-duration:12s; animation-delay:-6s"/>
+      <circle class="p" cx="240" cy="320" r="2.5" style="animation-duration:10s; animation-delay:-3s"/>
+      <circle class="p" cx="330" cy="320" r="1.5" style="animation-duration:13s; animation-delay:-9s"/>
+      <circle class="p" cx="420" cy="320" r="2"   style="animation-duration:8s;  animation-delay:-5s"/>
+      <circle class="p" cx="510" cy="320" r="3"   style="animation-duration:11s; animation-delay:-2s"/>
+      <circle class="p" cx="600" cy="320" r="1.5" style="animation-duration:9.5s;animation-delay:-7s"/>
+      <circle class="p" cx="960" cy="320" r="2"   style="animation-duration:12s; animation-delay:-4s"/>
+      <circle class="p" cx="690" cy="320" r="2.5" style="animation-duration:10s; animation-delay:-8s"/>
+      <circle class="p" cx="900" cy="320" r="1.5" style="animation-duration:14s; animation-delay:-1s"/>
+      <circle class="p" cx="30"  cy="320" r="1.5" style="animation-duration:15s; animation-delay:-11s"/>
+    </g>
+
+    <!-- original orbital graphic (right) -->
+    <g transform="translate(790 150)">
+      <circle r="105" fill="none" stroke="#6366f1" stroke-opacity=".18"/>
+      <g class="spin"><circle r="92" fill="none" stroke="url(#ring)" stroke-width="2" stroke-dasharray="60 40 14 40" stroke-linecap="round"/></g>
+      <g class="spinr"><circle r="66" fill="none" stroke="url(#ring)" stroke-width="1.5" stroke-opacity=".8" stroke-dasharray="30 24"/></g>
+      <g class="spin2"><circle r="40" fill="none" stroke="#a5b4fc" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="10 18" stroke-linecap="round"/></g>
+      <g class="spin"><circle cx="92" cy="0" r="5" fill="#38bdf8"/></g>
+      <g class="spinr"><circle cx="66" cy="0" r="4" fill="#c084fc"/></g>
+      <circle class="pulse" r="14" fill="url(#ring)"/>
+      <circle r="5" fill="#e0e7ff"/>
     </g>
 
     <g>
-      <text x="500" y="150" text-anchor="middle" font-size="104" font-weight="700" letter-spacing="-2" fill="#38bdf8" opacity="0.35" filter="url(#soft)" class="fade">kel</text>
-      <text x="500" y="150" text-anchor="middle" font-size="104" font-weight="700" letter-spacing="-2" fill="url(#name)" class="fade">kel</text>
-      <text x="500" y="196" text-anchor="middle" font-size="19" letter-spacing="4" fill="#cbd5e1" class="fade" style="animation-delay:.5s">DEVELOPER</text>
-      <text x="500" y="226" text-anchor="middle" font-size="14" letter-spacing="2.5" fill="#94a3b8" class="fade" style="animation-delay:.9s">SYSTEMS DESIGN  &#183;  AI-ASSISTED PROTOTYPING  &#183;  3D PIPELINES</text>
+      <text x="70" y="150" font-size="112" font-weight="700" letter-spacing="-3" fill="#38bdf8" opacity="0.35" filter="url(#soft)" class="fade">kel</text>
+      <text x="70" y="150" font-size="112" font-weight="700" letter-spacing="-3" fill="url(#name)" class="fade">kel</text>
+      <text x="74" y="200" font-size="20" letter-spacing="5" fill="#cbd5e1" class="fade" style="animation-delay:.5s">DEVELOPER</text>
+      <text x="74" y="232" font-size="13" letter-spacing="2.5" fill="#94a3b8" class="fade" style="animation-delay:.9s">SYSTEMS DESIGN  &#183;  AI-ASSISTED PROTOTYPING  &#183;  3D PIPELINES</text>
     </g>
 
-    <rect x="-400" y="270" width="400" height="3" fill="url(#sweep)">
-      <animate attributeName="x" values="-400;1000" dur="4.5s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="-400" y="290" width="400" height="3" fill="url(#sweep)"><animate attributeName="x" values="-400;1000" dur="4.5s" repeatCount="indefinite"/></rect>
   </g>
-  <rect x="0.5" y="0.5" width="999" height="279" rx="18" fill="none" stroke="#6366f1" stroke-opacity="0.35"/>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#6366f1" stroke-opacity="0.35"/>
 </svg>

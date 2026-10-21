@@ -22,9 +22,17 @@ I care about the details that make an experience feel premium: consistent UI, re
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-## Toolbox
+## Core skills
 
-<p align="center"><img src="assets/skills.svg" width="100%" alt="Python, PowerShell, Git, Blender, systems design, UI/UX, rapid prototyping, Claude Code, Cline, VS Code, Obsidian" /></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,powershell,blender,git,github,vscode,obsidian&perline=7&theme=dark" alt="Python, PowerShell, Blender, Git, GitHub, VS Code, Obsidian" />
+</p>
+
+- **languages:** python · powershell · markdown
+- **3d & art:** blender 4.5 · procedural modelling · python scripting for blender · asset export
+- **design:** systems design · ui/ux · rapid prototyping
+- **ai workflow:** claude code · cline · agent-directed, phase-by-phase development
+- **tools:** git · github · vs code · obsidian · windows
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
