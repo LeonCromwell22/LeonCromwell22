@@ -2,10 +2,10 @@
 <defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs>
 <style>text{font-family:'Segoe UI','Helvetica Neue',Arial,system-ui,sans-serif}.chip{opacity:0;animation:in .7s ease-out forwards}.lab{fill:#94a3b8;font-size:13px;letter-spacing:2px;font-weight:600}.tx{fill:#e2e8f0;font-size:14px}@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.bar{animation:pulse 4s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}</style>
 <rect class="bar" x="0" y="15" width="3" height="26" rx="1.5" fill="url(#cg)" style="animation-delay:-0.0s"/>
-<text class="lab" x="16" y="33">LANGUAGES &amp; ENGINE</text>
-<g class="chip" style="animation-delay:0.20s"><rect x="230" y="10" width="67" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="263.5" y="33" text-anchor="middle">Luau</text></g>
-<g class="chip" style="animation-delay:0.32s"><rect x="309" y="10" width="84" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="351.0" y="33" text-anchor="middle">Python</text></g>
-<g class="chip" style="animation-delay:0.44s"><rect x="405" y="10" width="143" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="476.5" y="33" text-anchor="middle">Roblox Studio</text></g>
+<text class="lab" x="16" y="33">LANGUAGES &amp; TOOLS</text>
+<g class="chip" style="animation-delay:0.20s"><rect x="230" y="10" width="84" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="272.0" y="33" text-anchor="middle">Python</text></g>
+<g class="chip" style="animation-delay:0.32s"><rect x="326" y="10" width="118" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="385.0" y="33" text-anchor="middle">PowerShell</text></g>
+<g class="chip" style="animation-delay:0.44s"><rect x="456" y="10" width="134" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="523.0" y="33" text-anchor="middle">Git &amp; GitHub</text></g>
 <rect class="bar" x="0" y="67" width="3" height="26" rx="1.5" fill="url(#cg)" style="animation-delay:-0.8s"/>
 <text class="lab" x="16" y="85">3D &amp; ART</text>
 <g class="chip" style="animation-delay:0.56s"><rect x="230" y="62" width="126" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="293.0" y="85" text-anchor="middle">Blender 4.5</text></g>
@@ -14,13 +14,12 @@
 <rect class="bar" x="0" y="119" width="3" height="26" rx="1.5" fill="url(#cg)" style="animation-delay:-1.6s"/>
 <text class="lab" x="16" y="137">DESIGN</text>
 <g class="chip" style="animation-delay:0.92s"><rect x="230" y="114" width="151" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="305.5" y="137" text-anchor="middle">Systems design</text></g>
-<g class="chip" style="animation-delay:1.04s"><rect x="393" y="114" width="118" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="452.0" y="137" text-anchor="middle">Game UI/UX</text></g>
-<g class="chip" style="animation-delay:1.16s"><rect x="523" y="114" width="176" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="611.0" y="137" text-anchor="middle">Rapid prototyping</text></g>
+<g class="chip" style="animation-delay:1.04s"><rect x="393" y="114" width="76" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="431.0" y="137" text-anchor="middle">UI/UX</text></g>
+<g class="chip" style="animation-delay:1.16s"><rect x="481" y="114" width="176" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="569.0" y="137" text-anchor="middle">Rapid prototyping</text></g>
 <rect class="bar" x="0" y="171" width="3" height="26" rx="1.5" fill="url(#cg)" style="animation-delay:-2.4s"/>
 <text class="lab" x="16" y="189">WORKFLOW</text>
 <g class="chip" style="animation-delay:1.28s"><rect x="230" y="166" width="126" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="293.0" y="189" text-anchor="middle">Claude Code</text></g>
 <g class="chip" style="animation-delay:1.40s"><rect x="368" y="166" width="76" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="406.0" y="189" text-anchor="middle">Cline</text></g>
 <g class="chip" style="animation-delay:1.52s"><rect x="456" y="166" width="92" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="502.0" y="189" text-anchor="middle">VS Code</text></g>
-<g class="chip" style="animation-delay:1.64s"><rect x="560" y="166" width="134" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="627.0" y="189" text-anchor="middle">Git &amp; GitHub</text></g>
-<g class="chip" style="animation-delay:1.76s"><rect x="706" y="166" width="101" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="756.5" y="189" text-anchor="middle">Obsidian</text></g>
+<g class="chip" style="animation-delay:1.64s"><rect x="560" y="166" width="101" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-opacity=".45"/><text class="tx" x="610.5" y="189" text-anchor="middle">Obsidian</text></g>
 </svg>

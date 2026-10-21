@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="kel - Roblox Developer, Systems Design, AI-Assisted Prototyping" width="100%" />
+<img src="assets/header.svg" alt="kel - Developer, Systems Design, AI-Assisted Prototyping" width="100%" />
 
-<img src="assets/typing.svg" alt="Designing gameplay systems. Building clean, readable game UI. Shipping 3D assets from Blender to Roblox. Verifying everything with evidence." width="100%" />
+<img src="assets/typing.svg" alt="Designing systems that scale. Building clean, readable interfaces. Building 3D assets and tools with Blender. Verifying everything with evidence." width="100%" />
 
 </div>
 
@@ -10,7 +10,7 @@
 
 ## About
 
-I'm a **Roblox developer** focused on gameplay systems, interface design, and the 3D pipeline that feeds them. I treat AI agents as part of the toolchain: I direct them through small, verified steps so I can prototype quickly without giving up polish or reliability.
+I'm a **developer** focused on systems design, interface design, and the 3D pipelines that feed them. I treat AI agents as part of the toolchain: I direct them through small, verified steps so I can prototype quickly without giving up polish or reliability.
 
 I care about the details that make an experience feel premium: consistent UI, readable type, smooth motion, and systems that behave the same way every time.
 
@@ -18,13 +18,13 @@ I care about the details that make an experience feel premium: consistent UI, re
 
 ## Focus
 
-<p align="center"><img src="assets/focus.svg" width="100%" alt="Focus areas: gameplay systems, game UI and experience, 3D asset pipelines, AI-assisted development" /></p>
+<p align="center"><img src="assets/focus.svg" width="100%" alt="Focus areas: systems design, interface and UX design, 3D asset pipelines, AI-assisted development" /></p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## Toolbox
 
-<p align="center"><img src="assets/skills.svg" width="100%" alt="Luau, Python, Roblox Studio, Blender, systems design, game UI, rapid prototyping, Claude Code, Cline, VS Code, Git, Obsidian" /></p>
+<p align="center"><img src="assets/skills.svg" width="100%" alt="Python, PowerShell, Git, Blender, systems design, UI/UX, rapid prototyping, Claude Code, Cline, VS Code, Obsidian" /></p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
@@ -40,8 +40,8 @@ I care about the details that make an experience feel premium: consistent UI, re
 
 ## Currently
 
-- Building advanced gameplay systems and polished UI for Roblox
-- Refining Blender-to-Roblox asset pipelines with Python automation
+- Building advanced systems and polished interfaces
+- Refining 3D asset pipelines with Blender and Python automation
 - Developing a repeatable, AI-assisted workflow for fast, dependable prototyping
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>

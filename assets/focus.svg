@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Focus areas: gameplay systems, game UI and experience, 3D asset pipelines, AI-assisted development">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Focus areas: systems design, interface and UX design, 3D asset pipelines, AI-assisted development">
   <defs>
     <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38bdf8"/>
@@ -24,16 +24,16 @@
     @keyframes bob  { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
   </style>
 
-  <!-- 1: gameplay systems -->
+  <!-- 1: systems design -->
   <g class="card" style="animation-delay:.1s">
     <rect x="10" y="10" width="480" height="140" rx="14" fill="url(#fill)" stroke="#6366f1" stroke-opacity=".3"/>
     <rect class="frame" x="10" y="10" width="480" height="140" rx="14" fill="none" stroke="url(#stroke)" stroke-width="2" pathLength="1000"/>
     <g transform="translate(34 40)">
       <g class="spin"><circle class="ico" cx="26" cy="26" r="9"/><path class="ico" d="M26 4v8M26 40v8M4 26h8M40 26h8M10.5 10.5l5.7 5.7M35.8 35.8l5.7 5.7M10.5 41.5l5.7-5.7M35.8 16.2l5.7-5.7"/></g>
     </g>
-    <text class="title" x="108" y="62">Gameplay Systems</text>
-    <text class="body" x="108" y="90">Client/server architecture, progression and state logic</text>
-    <text class="body" x="108" y="112">in Luau, written to stay readable and easy to extend.</text>
+    <text class="title" x="108" y="62">Systems Design</text>
+    <text class="body" x="108" y="90">Architecture, state and logic designed to stay</text>
+    <text class="body" x="108" y="112">readable and easy to extend as needs change.</text>
   </g>
 
   <!-- 2: game UI -->
@@ -44,7 +44,7 @@
       <rect class="ico" x="4" y="6" width="44" height="40" rx="5"/>
       <path class="ico" d="M4 18h44M18 18v28"/></g>
     </g>
-    <text class="title" x="608" y="62">Game UI &amp; Experience</text>
+    <text class="title" x="608" y="62">Interface &amp; UX Design</text>
     <text class="body" x="608" y="90">Consistent interfaces with clear hierarchy, legible type</text>
     <text class="body" x="608" y="112">and layouts that hold up on every screen size.</text>
   </g>
@@ -58,8 +58,8 @@
       <path class="ico" d="M6 15l20 11 20-11M26 26v22"/></g>
     </g>
     <text class="title" x="108" y="222">3D Asset Pipelines</text>
-    <text class="body" x="108" y="250">Blender modelling and Python automation, exported to</text>
-    <text class="body" x="108" y="272">Roblox with consistent scale, naming and texel density.</text>
+    <text class="body" x="108" y="250">Blender modelling and Python automation, exported with</text>
+    <text class="body" x="108" y="272">consistent scale, naming and texel density.</text>
   </g>
 
   <!-- 4: AI-assisted development -->

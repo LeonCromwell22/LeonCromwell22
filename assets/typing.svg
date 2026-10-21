@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 56" width="1000" height="56" role="img" aria-label="Designing gameplay systems. Building clean, readable game UI. Shipping 3D assets from Blender to Roblox. Verifying everything with evidence.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 56" width="1000" height="56" role="img" aria-label="Designing systems that scale. Building clean, readable interfaces. Building 3D assets and tools with Blender. Verifying everything with evidence.">
   <defs>
     <!-- each line's clip window: closed -> typed -> held -> erased, one slot of a 20s cycle -->
-    <clipPath id="c0"><rect x="0" y="0" height="56" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.02;0.10;0.21;0.24;1" values="0;0;494;494;0;0"/></rect></clipPath>
-    <clipPath id="c1"><rect x="0" y="0" height="56" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.25;0.33;0.46;0.49;1" values="0;0;429;429;0;0"/></rect></clipPath>
+    <clipPath id="c0"><rect x="0" y="0" height="56" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.02;0.10;0.21;0.24;1" values="0;0;377;377;0;0"/></rect></clipPath>
+    <clipPath id="c1"><rect x="0" y="0" height="56" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.25;0.33;0.46;0.49;1" values="0;0;468;468;0;0"/></rect></clipPath>
     <clipPath id="c2"><rect x="0" y="0" height="56" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.50;0.58;0.71;0.74;1" values="0;0;546;546;0;0"/></rect></clipPath>
     <clipPath id="c3"><rect x="0" y="0" height="56" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.75;0.83;0.96;0.99;1" values="0;0;455;455;0;0"/></rect></clipPath>
   </defs>
@@ -15,14 +15,14 @@
   </style>
   <text class="pr" x="250" y="36">&gt;</text>
   <g transform="translate(282 0)">
-    <g clip-path="url(#c0)"><text class="t" x="0" y="36" textLength="494" lengthAdjust="spacing">Designing gameplay systems that scale.</text></g>
-    <g clip-path="url(#c1)"><text class="t" x="0" y="36" textLength="429" lengthAdjust="spacing">Building clean, readable game UI.</text></g>
-    <g clip-path="url(#c2)"><text class="t" x="0" y="36" textLength="546" lengthAdjust="spacing">Shipping 3D assets from Blender to Roblox.</text></g>
+    <g clip-path="url(#c0)"><text class="t" x="0" y="36" textLength="377" lengthAdjust="spacing">Designing systems that scale.</text></g>
+    <g clip-path="url(#c1)"><text class="t" x="0" y="36" textLength="468" lengthAdjust="spacing">Building clean, readable interfaces.</text></g>
+    <g clip-path="url(#c2)"><text class="t" x="0" y="36" textLength="546" lengthAdjust="spacing">Building 3D assets and tools with Blender.</text></g>
     <g clip-path="url(#c3)"><text class="t" x="0" y="36" textLength="455" lengthAdjust="spacing">Verifying everything with evidence.</text></g>
     <rect class="blink" x="0" y="14" width="3" height="28" fill="#c084fc">
       <animate attributeName="x" dur="20s" repeatCount="indefinite"
         keyTimes="0;0.02;0.10;0.21;0.24;0.25;0.33;0.46;0.49;0.50;0.58;0.71;0.74;0.75;0.83;0.96;0.99;1"
-        values="0;0;494;494;0;0;429;429;0;0;546;546;0;0;455;455;0;0"/>
+        values="0;0;377;377;0;0;468;468;0;0;546;546;0;0;455;455;0;0"/>
     </rect>
   </g>
 </svg>
