@@ -1,0 +1,30 @@
+name: activity-graph
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - ".github/scripts/activity_graph.py"
+      - ".github/workflows/activity-graph.yml"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Draw graph
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/activity_graph.py "${{ github.repository_owner }}" assets/activity.svg
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain assets/activity.svg)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/activity.svg
+            git commit -m "Update activity graph"
+            git push
+          fi

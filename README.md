@@ -41,3 +41,9 @@ I care about the details that make an experience feel premium: consistent UI, re
 - Building advanced systems and polished interfaces
 - Refining 3D asset pipelines with Blender and Python automation
 - Developing a repeatable, AI-assisted workflow for fast, dependable prototyping
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+## Activity
+
+<p align="center"><img src="assets/activity.svg" width="100%" alt="Contribution activity over the last 30 days" /></p>
